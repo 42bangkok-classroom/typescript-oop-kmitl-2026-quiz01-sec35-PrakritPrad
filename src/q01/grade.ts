@@ -1,13 +1,15 @@
 let Input1 = Number(process.argv[2]);
+if (Input1 === 0){
+     console.log("Grade is F");
+        process.exit();
 
+
+}
 if(Number.isNaN(Input1) || (Input1 < 0) || (Input1 > 100) || (!Input1) ){
    console.log("Invalid Input");
    process.exit();
 }
-if (Input1 === 0){
-     console.log("Grade is F");
 
-}
 if(Input1 >= 50 && Input1 < 60){
   console.log("Grade is D");
 }
