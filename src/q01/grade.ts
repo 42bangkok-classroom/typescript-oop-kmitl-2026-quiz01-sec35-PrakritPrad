@@ -1,5 +1,5 @@
 let Input1 = Number(process.argv[2]);
-if (Input1 === 0){
+if (Input1 === "0"){
      console.log("Grade is F");
         process.exit();
 
