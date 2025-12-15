@@ -1,8 +1,9 @@
-let Input1 = Number(process.argv[2]);
+let word = (process.argv[2])
+let Input1 = Number(word);
 
 
 
-if(Number.isNaN(Input1) || (Input1 < 0) || (Input1 > 100) || (!Input1) ){
+if(Number.isNaN(Input1) || (Input1 < 0) || (Input1 > 100) || word === '' ){
    console.log("Invalid Input");
    process.exit();
 }
