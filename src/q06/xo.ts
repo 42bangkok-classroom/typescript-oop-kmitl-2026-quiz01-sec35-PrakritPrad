@@ -1,6 +1,6 @@
 let count = Number(process.argv[2]);
 
-if (Number.isNaN(count) || count <= 0) {
+if (Number.isNaN(count) || count <= 0 || !Number.isInteger(process.argv[2])) {
   console.log("Invalid Input");
   process.exit();
 }

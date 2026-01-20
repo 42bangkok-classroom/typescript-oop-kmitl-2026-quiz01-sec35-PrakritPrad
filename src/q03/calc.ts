@@ -3,7 +3,7 @@ let a = Number(process.argv[3]);
 let b = Number(process.argv[4]);
 
 if(Number.isNaN(a) || a < 0 || Number.isNaN(b) || b < 0 || process.argv[2] == " " || process.argv[3] == " " || process.argv[4] == " "){
-   console.log("Invalid Input");
+   console.log("Invalid input");
    process.exit();
 }
 
