@@ -1,8 +1,8 @@
 const word = process.argv[2];
-const Input1 = parseInt(process.argv[2]);
+const Input1 = Number(process.argv[2]);
 
 
-if(isNaN(Input1) || (Input1 < 0) || (Input1 > 100) || word == ""){
+if(isNaN(Input1) || (Input1 < 0) || (Input1 > 100) || word == "" ){
    console.log("Invalid Input");
    process.exit();
 }
