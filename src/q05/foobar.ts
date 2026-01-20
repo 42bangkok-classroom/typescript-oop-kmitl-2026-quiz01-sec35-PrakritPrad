@@ -1,6 +1,6 @@
 let Num1 = Number(process.argv[2]);
 
-if (Number.isNaN(Num1) || Num1 <= 0 || process.argv[0] == " ") {
+if (Number.isNaN(Num1) || Num1 <= 0 || process.argv[0] == " " || !Number.isInteger(Num1)) {
     console.log("Invalid Input");
     process.exit();
 }
@@ -19,3 +19,4 @@ for (let i = 1; i <= Num1; i++) {
         console.log(`${i}`);
     }
 }
+//asdasdasd
