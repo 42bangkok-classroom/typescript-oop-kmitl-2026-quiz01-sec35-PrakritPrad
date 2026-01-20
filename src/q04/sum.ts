@@ -9,6 +9,6 @@ let sum = 0;
 for(let i = Num;i >= 0;i--){
   sum += i;
 }
-console.log("Sum: ",sum);
+console.log("Sum:",sum);
 
 export{};
