@@ -1,6 +1,6 @@
 let Num1 = Number(process.argv[2]);
 
-if (Number.isNaN(Num1) || Num1 <= 0) {
+if (Number.isNaN(Num1) || Num1 <= 0 || process.argv[0] == " ") {
     console.log("Invalid Input");
     process.exit();
 }
