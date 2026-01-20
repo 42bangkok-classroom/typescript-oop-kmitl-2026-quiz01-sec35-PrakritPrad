@@ -16,6 +16,6 @@ for (let i = 1; i <= Num1; i++) {
         console.log("Bar");
     }
     else {
-        console.log(i);
+        console.log(`${i}`);
     }
 }
